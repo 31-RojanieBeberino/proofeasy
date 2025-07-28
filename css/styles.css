@@ -88,7 +88,6 @@ li, button{
 
 .icon-btn {
     background-color: #f0f3ff;
-    color: #001848;
     border: none;
     margin: 5px;
     width: 42px;
@@ -100,6 +99,12 @@ li, button{
     font-size: 1.2rem;
     box-shadow: 0px 0px 3px #0011505e;
 }
+
+
+.icon-btn a{
+    color: #001848;
+}
+
 
 .socialIcons {
     background-color: #f0f3ff;
@@ -155,6 +160,13 @@ li, button{
 .bitC{
     text-align: center;
     color:#fff!important;
+}
+
+.bitC img{
+    width: 60px!important;
+    height: 60px!important;
+    object-fit: contain;
+    margin-right:10px;
 }
 
 .bl-card p {
@@ -241,7 +253,23 @@ li, button{
 }
 
 .footer{
-    height: 625px;
+    height:570px;
+}
+
+.collapse{
+    color:#000!important;
+}
+
+.moreDescription{
+    display: block;
+}
+
+.more-text.open {
+    max-height: 500px; /* Large enough to fit full text */
+}
+
+.docsBtn a{
+    color:#000!important;
 }
 
 @media screen and (max-width:500px){
