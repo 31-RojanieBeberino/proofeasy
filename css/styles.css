@@ -78,7 +78,7 @@ li, button{
 }
 
 .btn-danger{
-    padding:15px;
+    padding:10px 15px;
     font-size: 15px;
     font-family: "Poppins";
     text-transform: uppercase;
@@ -203,9 +203,11 @@ li, button{
     padding: 6px 14px;
     margin: 4px;
     display: inline-block;
+    color:#001250;
 }
 .field-label {
     font-weight: 600;
+    color:#001250!important;
 }
 .divider {
     border-top: 1px solid #dee2e6;
@@ -215,6 +217,10 @@ li, button{
 
 .btn-outline-secondary{
     padding:15px 40px;
+    color:#000!important;
+    background-color: #f0f3ff;
+    box-shadow: 0px 0px 3px #0011505e;
+    border:0px!important;
 }
 
 .verBtn{
@@ -222,6 +228,9 @@ li, button{
     border-radius: 5px;
     background-color: #F6F8FF;
     color:#000;
+    position: absolute;
+    top:20px;
+    right: 20px;
 }
 
 
@@ -274,7 +283,7 @@ li, button{
 
 @media screen and (max-width:500px){
     .footer{
-        height: 1405px;
+        height: 1270px;
     }
 
     .imageSec, .btmSec{
@@ -309,5 +318,20 @@ li, button{
 
     .btmSec p{
         font-size: 12px;
+    }
+
+    .verBtn{
+        font-size: 12px;
+        padding:10px;
+        top:10px;
+        right:10px;
+    }
+
+    .verBtn i{
+        font-size: 12px;
+    }
+
+    .bl-card h3{
+        font-size: 20px!important;
     }
 }
